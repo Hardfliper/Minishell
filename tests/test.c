@@ -37,12 +37,3 @@ Test(arg_here, verify_cd, .init = redirect_all_std)
     my_put_nbr(check_empty_cd("cd delivery"));
     cr_assert_stdout_eq_str("1");
 }
-
-Test(go_to_root, test_cd_empty, .init = redirect_all_std)
-{
-    char *home = getenv("HOME");
-
-    go_to_home(get);
-    system("pwd");
-    cr_assert_stdout_eq_str(home);
-}
