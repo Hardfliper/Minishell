@@ -10,7 +10,7 @@ EPITECH first year project
   Minishell is a C Unix command interpreter.
 
 ## Compilation
-  Go to the root of the repository and run 'make', this will build the 'mysh' executable file
+  Go to the root of the repository and run `make`, this will build the `mysh` executable file
 
 ## Builtin
 CD
